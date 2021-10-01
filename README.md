@@ -1,3 +1,25 @@
+## Steps
+1. Create server folder
+2. inside folder npm init
+3. npm install cookie-parser cors express express-jwt jsonwebtoken
+4. run node server.js to run the server
+
+5. Create client app  yarn create react-app <<app name>>
+
+
+## With cookies
+    Created new app auth-client-cookies
+    created new server serverCookie.js
+    Removed interceptor from clientApp
+    Added cookie support
+    add proxy in package.js   "proxy": "http://localhost:3001",
+
+    if API url is blank, Axios will take from proxy
+
+    Store token always in Cookie : https://medium.com/@ryanchenkie_40935/react-authentication-how-to-store-jwt-in-a-cookie-346519310e81
+
+    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
